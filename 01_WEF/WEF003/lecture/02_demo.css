@@ -1,0 +1,123 @@
+#flexbox {
+   box-sizing: border-box; 
+   height: 1000px;
+  display: flex;
+  justify-content:start;
+  flex-wrap: wrap;
+  /* flex-direction: column-reverse; */
+
+}
+
+.box1 {
+  box-sizing: border-box;
+  height: 500px;
+  width: 500px;
+  color: black;
+  background-color: aquamarine;
+  border: solid black 1px;
+}
+
+.box2 {
+  box-sizing: border-box;
+  height: 500px;
+  width: 500px;  
+  color: black;
+  background-color: bisque;
+  border: solid black 1px;
+}
+
+.box3 {
+  box-sizing: border-box;
+  height: 500px;
+  width: 500px;
+  color: black;
+  background-color: yellowgreen;
+  border: solid black 1px;
+}
+
+/* .demo-box {
+    height: 100px;
+    width: 100px;
+} */
+
+#box {
+  border: solid 2px;
+  border-color: black;
+  padding: 4px;
+  margin-bottom: 10px;
+}
+
+#box-two {
+  border: solid 2px;
+  border-color: red;
+}
+
+div h1 {
+  color: blue;
+}
+
+h1 {
+  color: red;
+}
+
+div > div > div {
+  font-family: "Noto Serif TC", serif;
+  font-family: "Silkscreen", cursive;
+}
+
+div:has(div) {
+  color: yellow;
+}
+
+div > div > div {
+  color: black;
+}
+
+/* a[target=_blank] {
+    font-family: "Noto Serif TC", serif;
+    font-family: "Silkscreen", cursive;
+}
+
+#yuu {
+    font-family: "Noto Serif TC", serif;
+    font-family: "Silkscreen", cursive;
+} */
+
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.tg td {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg th {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+
+h2 {
+  color: blue !important;
+}
+
+h2 {
+  color: green !important;
+}

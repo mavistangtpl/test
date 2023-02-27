@@ -1,0 +1,31 @@
+
+# Rundown
+- [x] remind student to use their payment email
+- [x] package manager installation 
+- [x] break
+- [x] introduction of command line 
+	- [x] common command
+	- [x] user permission
+	- [x] path
+- [x] break
+- [ ] versioning control tools
+	- [x] git
+	- [x] command git commands
+	- [x] configure github ssh key
+    	- [x] ssh-keygen
+    	- [x] put ssh public key onto github 
+    	- [x] be mindful of ssh-agent ,and you may need to ssh-add {your_new_ssh_key}
+	- [x] create repo on github website and push local files up
+    	- [x] remember we are using ssh!! 
+    	- [x] create local folder with files
+    	- [x] git init
+    	- [x] git add ,git commit 
+    	- [x] to link up to github, git remote add {your_github_ssh_link}
+    	- [x] on first push , git push -u origin main
+
+	- [x] fork from hk-map-25 
+    	- [x] fork from your desired reop
+    	- [x] git clone {your_github_ssh_linkd
+	- [x] break
+	- [ ] start ice-breaking !!!!*
+- [ ] extra materials

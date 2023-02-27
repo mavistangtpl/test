@@ -1,0 +1,29 @@
+body {
+  font-family: "Noto Sans TC", sans-serif;
+
+}
+
+.board-container {
+  display: flex;
+  justify-content: center;
+}
+
+.board {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.box {
+  background-color: rgb(221, 232, 250);
+  font-size: 50px;
+  width: 30%;
+  height: 30%;
+  border: 1px solid rgb(115, 141, 187);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
